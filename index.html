@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form action="" id="pirma_forma">
+        <div class="codeDiv">
+            <label for="code">Product Code</label>
+            <input type="number" name="code" id="code" placeholder=" only numbers..." required>
+        </div>
+
+        <div id="nameDiv">
+            <label for="name">Product Name</label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div id="quantityDiv">
+            <label for="quantity">Product Quantity</label>
+            <input type="number" name="quantity" id="quantity" required>
+        </div>
+        <div id="buttonDiv">
+            <div>
+                <input type="submit" value="Insert" class="button">
+            </div>
+            <div>
+                <input type="submit" value="Delete" class="button">
+            </div>
+        </div>
+    </form>
+
+    <form action="" id="antra_forma">
+        <div class="codeDiv">
+            <label for="code">Product Code</label>
+            <input type="number" name="code">
+        </div>
+        <div id="buttonDiv2">
+            <input type="submit" value="Get data" class="button">
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
